@@ -155,7 +155,7 @@ The first two steps are similar, so let's move on to the third
 
 1. Choose an background
     <details>
-    <summary>Show available backgrouns (24)</summary>
+    <summary>Show available backgrouns (32)</summary>
 
     | Immage                     | Params  | Immage                     | Params  |
     | -------------------------- | ------- | -------------------------- | ------- |

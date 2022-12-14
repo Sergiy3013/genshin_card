@@ -1,10 +1,10 @@
 # Genshin Card
 ## This tool generates images with your statistics.
 
-|     |Example 1|Example 2|Example 3|Default|
-|-----|-----|-----|-----|-----|
-|Params|CARD_AVATAR="Ganyu" <br> CARD_BG="bg_3" <br> CARD_LANG="lang_UA"|CARD_AVATAR="Diluc" <br> CARD_BG="bg_9" <br> CARD_LANG="lang_ENG"|CARD_AVATAR="Shenhe" <br> CARD_BG="bg_10" <br> CARD_LANG="lang_RU"|CARD_AVATAR=Default <br> CARD_BG=Default <br> CARD_LANG=Default|
-|Immage|![Ganyu UA Card](README/Ganyu_UA.png)|![Diluc ENG Card](README/Diluc_ENG.png)|![Shenhe RU Card](README/Shenhe_RU.png)|![Default Card](README/Default_card.png)
+|        | Example 1                                                        | Example 2                                                         | Example 3                                                          | Default                                                         |
+| ------ | ---------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------- |
+| Params | CARD_AVATAR="Ganyu" <br> CARD_BG="bg_3" <br> CARD_LANG="lang_UA" | CARD_AVATAR="Diluc" <br> CARD_BG="bg_9" <br> CARD_LANG="lang_ENG" | CARD_AVATAR="Shenhe" <br> CARD_BG="bg_10" <br> CARD_LANG="lang_RU" | CARD_AVATAR=Default <br> CARD_BG=Default <br> CARD_LANG=Default |
+| Immage | ![Ganyu UA Card](README/Ganyu_UA.png)                            | ![Diluc ENG Card](README/Diluc_ENG.png)                           | ![Shenhe RU Card](README/Shenhe_RU.png)                            | ![Default Card](README/Default_card.png)                        |
 
 
 ---
@@ -114,38 +114,38 @@ The first two steps are similar, so let's move on to the third
     <details>
     <summary>Show available avatars (60)</summary>
 
-    |   Immage   |    Params    |   Immage   |    Params    |
-    | ---------- | ------------ | ---------- | ------------ |
-    | ![Albedo](img/avatars/Albedo.png)| `Albedo`| ![Aloy](img/avatars/Aloy.png)      | `Aloy`|
-    | ![Amber](img/avatars/Amber.png)| `Amber`| ![Arataki_Itto](img/avatars/Arataki_Itto.png)      | `Arataki_Itto`|
-    | ![Barbara](img/avatars/Barbara.png)| `Barbara`| ![Beidou](img/avatars/Beidou.png)      | `Beidou`|
-    | ![Bennett](img/avatars/Bennett.png)| `Bennett`| ![Candace](img/avatars/Candace.png)      | `Candace`|
-    | ![Chongyun](img/avatars/Chongyun.png)| `Chongyun`| ![Cyno](img/avatars/Cyno.png)      | `Cyno`|
-    | ![Diluc](img/avatars/Diluc.png)| `Diluc`| ![Diona](img/avatars/Diona.png)      | `Diona`|
-    | ![Dori](img/avatars/Dori.png)| `Dori`| ![Eula](img/avatars/Eula.png)      | `Eula`|
-    | ![Faruzan](img/avatars/Faruzan.png)| `Faruzan`| ![Fischl](img/avatars/Fischl.png)      | `Fischl`|
-    | ![Ganyu](img/avatars/Ganyu.png)| `Ganyu`| ![Gorou](img/avatars/Gorou.png)      | `Gorou`|
-    | ![Hu_Tao](img/avatars/Hu_Tao.png)| `Hu_Tao`| ![Jean](img/avatars/Jean.png)      | `Jean`|
-    | ![Kaedehara_Kazuha](img/avatars/Kaedehara_Kazuha.png)| `Kaedehara_Kazuha`| ![Kaeya](img/avatars/Kaeya.png)      | `Kaeya`|
-    | ![Kamisato_Ayaka](img/avatars/Kamisato_Ayaka.png)| `Kamisato_Ayaka`| ![Kamisato_Ayato](img/avatars/Kamisato_Ayato.png)      | `Kamisato_Ayato`|      
-    | ![Keqing](img/avatars/Keqing.png)| `Keqing`| ![Klee](img/avatars/Klee.png)      | `Klee`|
-    | ![Kujou_Sara](img/avatars/Kujou_Sara.png)| `Kujou_Sara`| ![Kuki_Shinobu](img/avatars/Kuki_Shinobu.png)      | `Kuki_Shinobu`|
-    | ![Layla](img/avatars/Layla.png)| `Layla`| ![Lisa](img/avatars/Lisa.png)      | `Lisa`|
-    | ![Mona](img/avatars/Mona.png)| `Mona`| ![Ningguang](img/avatars/Ningguang.png)      | `Ningguang`|
-    | ![Noelle](img/avatars/Noelle.png)| `Noelle`| ![Paimon](img/avatars/Paimon.png)      | `Paimon`|
-    | ![Qiqi](img/avatars/Qiqi.png)| `Qiqi`| ![Raiden_Shogun](img/avatars/Raiden_Shogun.png)      | `Raiden_Shogun`|
-    | ![Razor](img/avatars/Razor.png)| `Razor`| ![Rosaria](img/avatars/Rosaria.png)      | `Rosaria`|
-    | ![Sangonomiya_Kokomi](img/avatars/Sangonomiya_Kokomi.png)| `Sangonomiya_Kokomi`| ![Sayu](img/avatars/Sayu.png)      | `Sayu`|
-    | ![Shenhe](img/avatars/Shenhe.png)| `Shenhe`| ![Shikanoin_Heizou](img/avatars/Shikanoin_Heizou.png)      | `Shikanoin_Heizou`|
-    | ![Sucrose](img/avatars/Sucrose.png)| `Sucrose`| ![Tartaglia](img/avatars/Tartaglia.png)      | `Tartaglia`|
-    | ![Thoma](img/avatars/Thoma.png)| `Thoma`| ![Tighnari](img/avatars/Tighnari.png)      | `Tighnari`|
-    | ![Traveler_Eather](img/avatars/Traveler_Eather.png)| `Traveler_Eather`| ![Traveler_Lumine](img/avatars/Traveler_Lumine.png)      | `Traveler_Lumine`|
-    | ![Venti](img/avatars/Venti.png)| `Venti`| ![Wanderer](img/avatars/Wanderer.png)      | `Wanderer`|
-    | ![Xiangling](img/avatars/Xiangling.png)| `Xiangling`| ![Xiao](img/avatars/Xiao.png)      | `Xiao`|
-    | ![Xingqiu](img/avatars/Xingqiu.png)| `Xingqiu`| ![Xinyan](img/avatars/Xinyan.png)      | `Xinyan`|
-    | ![Yae_Miko](img/avatars/Yae_Miko.png)| `Yae_Miko`| ![Yanfei](img/avatars/Yanfei.png)      | `Yanfei`|
-    | ![Yelan](img/avatars/Yelan.png)| `Yelan`| ![Yoimiya](img/avatars/Yoimiya.png)      | `Yoimiya`|
-    | ![Yun_Jin](img/avatars/Yun_Jin.png)| `Yun_Jin`| ![Zhongli](img/avatars/Zhongli.png)      | `Zhongli`|
+    | Immage                                                    | Params               | Immage                                                | Params             |
+    | --------------------------------------------------------- | -------------------- | ----------------------------------------------------- | ------------------ |
+    | ![Albedo](img/avatars/Albedo.png)                         | `Albedo`             | ![Aloy](img/avatars/Aloy.png)                         | `Aloy`             |
+    | ![Amber](img/avatars/Amber.png)                           | `Amber`              | ![Arataki_Itto](img/avatars/Arataki_Itto.png)         | `Arataki_Itto`     |
+    | ![Barbara](img/avatars/Barbara.png)                       | `Barbara`            | ![Beidou](img/avatars/Beidou.png)                     | `Beidou`           |
+    | ![Bennett](img/avatars/Bennett.png)                       | `Bennett`            | ![Candace](img/avatars/Candace.png)                   | `Candace`          |
+    | ![Chongyun](img/avatars/Chongyun.png)                     | `Chongyun`           | ![Cyno](img/avatars/Cyno.png)                         | `Cyno`             |
+    | ![Diluc](img/avatars/Diluc.png)                           | `Diluc`              | ![Diona](img/avatars/Diona.png)                       | `Diona`            |
+    | ![Dori](img/avatars/Dori.png)                             | `Dori`               | ![Eula](img/avatars/Eula.png)                         | `Eula`             |
+    | ![Faruzan](img/avatars/Faruzan.png)                       | `Faruzan`            | ![Fischl](img/avatars/Fischl.png)                     | `Fischl`           |
+    | ![Ganyu](img/avatars/Ganyu.png)                           | `Ganyu`              | ![Gorou](img/avatars/Gorou.png)                       | `Gorou`            |
+    | ![Hu_Tao](img/avatars/Hu_Tao.png)                         | `Hu_Tao`             | ![Jean](img/avatars/Jean.png)                         | `Jean`             |
+    | ![Kaedehara_Kazuha](img/avatars/Kaedehara_Kazuha.png)     | `Kaedehara_Kazuha`   | ![Kaeya](img/avatars/Kaeya.png)                       | `Kaeya`            |
+    | ![Kamisato_Ayaka](img/avatars/Kamisato_Ayaka.png)         | `Kamisato_Ayaka`     | ![Kamisato_Ayato](img/avatars/Kamisato_Ayato.png)     | `Kamisato_Ayato`   |
+    | ![Keqing](img/avatars/Keqing.png)                         | `Keqing`             | ![Klee](img/avatars/Klee.png)                         | `Klee`             |
+    | ![Kujou_Sara](img/avatars/Kujou_Sara.png)                 | `Kujou_Sara`         | ![Kuki_Shinobu](img/avatars/Kuki_Shinobu.png)         | `Kuki_Shinobu`     |
+    | ![Layla](img/avatars/Layla.png)                           | `Layla`              | ![Lisa](img/avatars/Lisa.png)                         | `Lisa`             |
+    | ![Mona](img/avatars/Mona.png)                             | `Mona`               | ![Ningguang](img/avatars/Ningguang.png)               | `Ningguang`        |
+    | ![Noelle](img/avatars/Noelle.png)                         | `Noelle`             | ![Paimon](img/avatars/Paimon.png)                     | `Paimon`           |
+    | ![Qiqi](img/avatars/Qiqi.png)                             | `Qiqi`               | ![Raiden_Shogun](img/avatars/Raiden_Shogun.png)       | `Raiden_Shogun`    |
+    | ![Razor](img/avatars/Razor.png)                           | `Razor`              | ![Rosaria](img/avatars/Rosaria.png)                   | `Rosaria`          |
+    | ![Sangonomiya_Kokomi](img/avatars/Sangonomiya_Kokomi.png) | `Sangonomiya_Kokomi` | ![Sayu](img/avatars/Sayu.png)                         | `Sayu`             |
+    | ![Shenhe](img/avatars/Shenhe.png)                         | `Shenhe`             | ![Shikanoin_Heizou](img/avatars/Shikanoin_Heizou.png) | `Shikanoin_Heizou` |
+    | ![Sucrose](img/avatars/Sucrose.png)                       | `Sucrose`            | ![Tartaglia](img/avatars/Tartaglia.png)               | `Tartaglia`        |
+    | ![Thoma](img/avatars/Thoma.png)                           | `Thoma`              | ![Tighnari](img/avatars/Tighnari.png)                 | `Tighnari`         |
+    | ![Traveler_Eather](img/avatars/Traveler_Eather.png)       | `Traveler_Eather`    | ![Traveler_Lumine](img/avatars/Traveler_Lumine.png)   | `Traveler_Lumine`  |
+    | ![Venti](img/avatars/Venti.png)                           | `Venti`              | ![Wanderer](img/avatars/Wanderer.png)                 | `Wanderer`         |
+    | ![Xiangling](img/avatars/Xiangling.png)                   | `Xiangling`          | ![Xiao](img/avatars/Xiao.png)                         | `Xiao`             |
+    | ![Xingqiu](img/avatars/Xingqiu.png)                       | `Xingqiu`            | ![Xinyan](img/avatars/Xinyan.png)                     | `Xinyan`           |
+    | ![Yae_Miko](img/avatars/Yae_Miko.png)                     | `Yae_Miko`           | ![Yanfei](img/avatars/Yanfei.png)                     | `Yanfei`           |
+    | ![Yelan](img/avatars/Yelan.png)                           | `Yelan`              | ![Yoimiya](img/avatars/Yoimiya.png)                   | `Yoimiya`          |
+    | ![Yun_Jin](img/avatars/Yun_Jin.png)                       | `Yun_Jin`            | ![Zhongli](img/avatars/Zhongli.png)                   | `Zhongli`          |
     </details> 
 
 2. Add a secret with the name `CARD_AVATAR` and the avatar parameter of your choice. For example, I chose `Chongyun`
@@ -157,20 +157,24 @@ The first two steps are similar, so let's move on to the third
     <details>
     <summary>Show available backgrouns (24)</summary>
 
-    |   Immage   |    Params    |   Immage   |    Params    |
-    | ---------- | ------------ | ---------- | ------------ |
-    | ![bg_1](img/bg/bg_1.png)      | `bg_1`| ![bg_2](img/bg/bg_2.png)      | `bg_2`|
-    | ![bg_3](img/bg/bg_3.png)      | `bg_3`| ![bg_4](img/bg/bg_4.png)      | `bg_4`|
-    | ![bg_5](img/bg/bg_5.png)      | `bg_5`| ![bg_6](img/bg/bg_6.png)      | `bg_1`|
-    | ![bg_7](img/bg/bg_7.png)      | `bg_7`| ![bg_8](img/bg/bg_8.png)      | `bg_8`|
-    | ![bg_9](img/bg/bg_9.png)      | `bg_9`| ![bg_10](img/bg/bg_10.png)      | `bg_10`|
-    | ![bg_11](img/bg/bg_11.png)      | `bg_11`| ![bg_12](img/bg/bg_12.png)      | `bg_12`| 
-    | ![bg_13](img/bg/bg_13.png)      | `bg_13`| ![bg_14](img/bg/bg_14.png)      | `bg_14`| 
-    | ![bg_15](img/bg/bg_15.png)      | `bg_15`| ![bg_16](img/bg/bg_16.png)      | `bg_16`| 
-    | ![bg_17](img/bg/bg_17.png)      | `bg_17`| ![bg_18](img/bg/bg_18.png)      | `bg_18`| 
-    | ![bg_19](img/bg/bg_19.png)      | `bg_19`| ![bg_20](img/bg/bg_20.png)      | `bg_20`| 
-    | ![bg_21](img/bg/bg_21.png)      | `bg_21`| ![bg_22](img/bg/bg_22.png)      | `bg_22`| 
-    | ![bg_23](img/bg/bg_23.png)      | `bg_23`| ![bg_24](img/bg/bg_24.png)      | `bg_24`| 
+    | Immage                     | Params  | Immage                     | Params  |
+    | -------------------------- | ------- | -------------------------- | ------- |
+    | ![bg_1](img/bg/bg_1.png)   | `bg_1`  | ![bg_2](img/bg/bg_2.png)   | `bg_2`  |
+    | ![bg_3](img/bg/bg_3.png)   | `bg_3`  | ![bg_4](img/bg/bg_4.png)   | `bg_4`  |
+    | ![bg_5](img/bg/bg_5.png)   | `bg_5`  | ![bg_6](img/bg/bg_6.png)   | `bg_1`  |
+    | ![bg_7](img/bg/bg_7.png)   | `bg_7`  | ![bg_8](img/bg/bg_8.png)   | `bg_8`  |
+    | ![bg_9](img/bg/bg_9.png)   | `bg_9`  | ![bg_10](img/bg/bg_10.png) | `bg_10` |
+    | ![bg_11](img/bg/bg_11.png) | `bg_11` | ![bg_12](img/bg/bg_12.png) | `bg_12` |
+    | ![bg_13](img/bg/bg_13.png) | `bg_13` | ![bg_14](img/bg/bg_14.png) | `bg_14` |
+    | ![bg_15](img/bg/bg_15.png) | `bg_15` | ![bg_16](img/bg/bg_16.png) | `bg_16` |
+    | ![bg_17](img/bg/bg_17.png) | `bg_17` | ![bg_18](img/bg/bg_18.png) | `bg_18` |
+    | ![bg_19](img/bg/bg_19.png) | `bg_19` | ![bg_20](img/bg/bg_20.png) | `bg_20` |
+    | ![bg_21](img/bg/bg_21.png) | `bg_21` | ![bg_22](img/bg/bg_22.png) | `bg_22` |
+    | ![bg_23](img/bg/bg_23.png) | `bg_23` | ![bg_24](img/bg/bg_24.png) | `bg_24` |
+    | ![bg_25](img/bg/bg_25.png) | `bg_25` | ![bg_26](img/bg/bg_26.png) | `bg_26` |
+    | ![bg_27](img/bg/bg_27.png) | `bg_27` | ![bg_28](img/bg/bg_28.png) | `bg_28` |
+    | ![bg_29](img/bg/bg_29.png) | `bg_29` | ![bg_30](img/bg/bg_30.png) | `bg_30` |
+    | ![bg_31](img/bg/bg_31.png) | `bg_31` | ![bg_32](img/bg/bg_32.png) | `bg_32` |
     </details> 
 
 2. Add a secret with the name `CARD_BG` and the avatar parameter of your choice. For example, I chose `bg_4`
@@ -182,10 +186,10 @@ The first two steps are similar, so let's move on to the third
     <details>
     <summary>Show available languages (3)</summary>
 
-    |   Immage   |    Params    |   Immage   |    Params    |
-    | ---------- | ------------ | ---------- | ------------ |
-    | ![lang_UA](img/lang/lang_UA.png)      | `lang_UA`| ![lang_ENG](img/lang/lang_ENG.png)      | `lang_ENG`|
-    | ![lang_RU](img/lang/lang_RU.png)      | `lang_RU`|
+    | Immage                           | Params    | Immage                             | Params     |
+    | -------------------------------- | --------- | ---------------------------------- | ---------- |
+    | ![lang_UA](img/lang/lang_UA.png) | `lang_UA` | ![lang_ENG](img/lang/lang_ENG.png) | `lang_ENG` |
+    | ![lang_RU](img/lang/lang_RU.png) | `lang_RU` |
     </details> 
 
 2. Add a secret with the name `CARD_LANG` and the avatar parameter of your choice. For example, I chose `lang_UA`

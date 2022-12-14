@@ -11,15 +11,15 @@ async function start() {
         return
     }
     try {
-        cookies = JSON.parse(process.env.HOYOLAB_COOKIES)
+        all_cookies = JSON.parse(process.env.HOYOLAB_COOKIES)
     } catch (error) {
         core.setFailed('It looks like you entered `HOYOLAB_COOKIES` incorrectly');
         return false
     }
-    for (let i = 0; i < cookies.length; i++) {
-        console.log(`\nCard ${i+1}/${JSON.parse(process.env.HOYOLAB_COOKIES).length}`);
+    for (let i = 0; i < all_cookies.length; i++) {
+        console.log(`\nCard ${i+1}/${all_cookies.length}`);
         console.log("Trying to get account information\n");
-        data = await hoyolab.start(JSON.parse(process.env.HOYOLAB_COOKIES)[i])
+        data = await hoyolab.start(all_cookies[i])
         if(data) {
             console.log("Account information successfully received\n");
 

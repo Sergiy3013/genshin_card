@@ -1,0 +1,27 @@
+{
+    "userData": {
+        "close": ".close .mhy-img-icon",
+        "name": ".header-layout .left .title",
+        "info": ".header-layout .left .info",
+        "a": "a"
+
+    },
+    "Summary": {
+        "Days_Active": ".summary-items .item:nth-child(1) .value",
+        "Achievements": ".summary-items .item:nth-child(2) .value",
+        "Characters": ".summary-items .item:nth-child(3) .value",
+        "Waypoints_Unlocked": ".summary-items .item:nth-child(4) .value",
+        "Anemoculi": ".summary-items .item:nth-child(5) .value",
+        "Geoculi": ".summary-items .item:nth-child(6) .value",
+        "Electroculi": ".summary-items .item:nth-child(7) .value",
+        "Dendroculi": ".summary-items .item:nth-child(8) .value",
+        "Domains_Unlocked": ".summary-items .item:nth-child(9) .value",
+        "Spiral_Abyss": ".summary-items .item:nth-child(10) .value",
+        "Luxurious_Chests_Opened": ".summary-items .item:nth-child(11) .value",
+        "Precious_Chests_Opened": ".summary-items .item:nth-child(12) .value",
+        "Exquisite_Chests_Opened": ".summary-items .item:nth-child(13) .value",
+        "Common_Chests_Opened": ".summary-items .item:nth-child(14) .value",
+        "Number_of_Remarkable_Chests": ".summary-items .item:nth-child(15) .value",
+        "a": "a"
+    }
+}

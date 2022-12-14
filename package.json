@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "canvas": "^2.10.2",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.60.0",
+    "puppeteer": "^19.4.0"
+  }
+}

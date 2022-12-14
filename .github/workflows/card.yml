@@ -1,0 +1,38 @@
+name: Card generate
+on:
+  schedule:
+    - cron: "0 18 * * *"  # scheduled at 06:00 (UTC+8) everyday
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '>=12.14.1'
+    - name: Install dependencies
+      run: npm ci
+    - name: Install actions core
+      run: npm i @actions/core 
+    - name: Install puppeteer
+      run: npm i --save puppeteer
+    - name: Install dotenv
+      run: npm i dotenv --save
+    - name: Install canvas
+      run: npm i canvas
+    - name: Install discord.js
+      run: npm i discord.js
+    - name: Start generate
+      run: node index.js
+      env:
+        HOYOLAB_COOKIE: ${{ secrets.HOYOLAB_COOKIE }}
+        HOYOLAB_COOKIES: ${{ secrets.HOYOLAB_COOKIES }}
+        TG_API: ${{ secrets.TG_API }}
+        TG_UID: ${{ secrets.TG_UID }}
+        DS_API: ${{ secrets.DS_API }}
+        DS_CID: ${{ secrets.DS_CID }}
+        CARD_AVATAR: ${{ secrets.CARD_AVATAR }}
+        CARD_BG: ${{ secrets.CARD_BG }}
+        CARD_LANG: ${{ secrets.CARD_LANG }}

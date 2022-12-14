@@ -161,7 +161,8 @@ The first two steps are similar, so let's move on to the third
     | ![bg_5](img/bg/bg_5.png)      | `bg_5`| ![bg_6](img/bg/bg_6.png)      | `bg_1`|
     | ![bg_7](img/bg/bg_7.png)      | `bg_7`| ![bg_8](img/bg/bg_8.png)      | `bg_8`|
     | ![bg_9](img/bg/bg_9.png)      | `bg_9`| ![bg_10](img/bg/bg_10.png)      | `bg_10`|
-    | ![bg_11](img/bg/bg_11.png)      | `bg_11`| 
+    | ![bg_11](img/bg/bg_11.png)      | `bg_11`| ![bg_12](img/bg/bg_12.png)      | `bg_12`| 
+    | ![bg_13](img/bg/bg_13.png)      | `bg_13`| ![bg_14](img/bg/bg_14.png)      | `bg_14`| 
     </details> 
 
 2. Add a secret with the name `CARD_BG` and the avatar parameter of your choice. For example, I chose `bg_4`

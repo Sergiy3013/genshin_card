@@ -112,37 +112,40 @@ The first two steps are similar, so let's move on to the third
 
 1. Choose an avatar
     <details>
-    <summary>Show available avatars (53)</summary>
+    <summary>Show available avatars (60)</summary>
 
     |   Immage   |    Params    |   Immage   |    Params    |
     | ---------- | ------------ | ---------- | ------------ |
-    | ![Albedo](img/avatars/Albedo.png)      | `Albedo`| ![Aloy](img/avatars/Aloy.png)      | `Aloy`|
-    | ![Amber](img/avatars/Amber.png)      | `Amber`| ![Arataki_Itto](img/avatars/Arataki_Itto.png)      | `Arataki_Itto`|
-    | ![Barbara](img/avatars/Barbara.png)      | `Barbara`| ![Beidou](img/avatars/Beidou.png)      | `Beidou`|
-    | ![Bennett](img/avatars/Bennett.png)      | `Bennett`| ![Chongyun](img/avatars/Chongyun.png)      | `Chongyun`|
-    | ![Diluc](img/avatars/Diluc.png)      | `Diluc`| ![Diona](img/avatars/Diona.png)      | `Diona`|
-    | ![Eula](img/avatars/Eula.png)      | `Eula`| ![Fischl](img/avatars/Fischl.png)      | `Fischl`|
-    | ![Ganyu](img/avatars/Ganyu.png)      | `Ganyu`| ![Gorou](img/avatars/Gorou.png)      | `Gorou`|
-    | ![Hu_Tao](img/avatars/Hu_Tao.png)      | `Hu_Tao`| ![Jean](img/avatars/Jean.png)      | `Jean`|
-    | ![Kaedehara_Kazuha](img/avatars/Kaedehara_Kazuha.png)      | `Kaedehara_Kazuha`| ![Kaeya](img/avatars/Kaeya.png)      | `Kaeya`|
-    | ![Kamisato_Ayaka](img/avatars/Kamisato_Ayaka.png)      | `Kamisato_Ayaka`| ![Kamisato_Ayato](img/avatars/Kamisato_Ayato.png)      | `Kamisato_Ayato`|
-    | ![Keqing](img/avatars/Keqing.png)      | `Keqing`| ![Klee](img/avatars/Klee.png)      | `Klee`|
-    | ![Kujou_Sara](img/avatars/Kujou_Sara.png)      | `Kujou_Sara`| ![Kuki_Shinobu](img/avatars/Kuki_Shinobu.png)      | `Kuki_Shinobu`|
-    | ![Lisa](img/avatars/Lisa.png)      | `Lisa`| ![Mona](img/avatars/Mona.png)      | `Mona`|
-    | ![Ningguang](img/avatars/Ningguang.png)      | `Ningguang`| ![Noelle](img/avatars/Noelle.png)      | `Noelle`|
-    | ![Paimon](img/avatars/Paimon.png)      | `Paimon`| ![Qiqi](img/avatars/Qiqi.png)      | `Qiqi`|
-    | ![Raiden_Shogun](img/avatars/Raiden_Shogun.png)      | `Raiden_Shogun`| ![Razor](img/avatars/Razor.png)      | `Razor`|
-    | ![Rosaria](img/avatars/Rosaria.png)      | `Rosaria`| ![Sangonomiya_Kokomi](img/avatars/Sangonomiya_Kokomi.png)      | `Sangonomiya_Kokomi`|
-    | ![Sayu](img/avatars/Sayu.png)      | `Sayu`| ![Shenhe](img/avatars/Shenhe.png)      | `Shenhe`|
-    | ![Shikanoin_Heizou](img/avatars/Shikanoin_Heizou.png)      | `Shikanoin_Heizou`| ![Sucrose](img/avatars/Sucrose.png)      | `Sucrose`|
-    | ![Tartaglia](img/avatars/Tartaglia.png)      | `Tartaglia`| ![Thoma](img/avatars/Thoma.png)      | `Thoma`|
-    | ![Traveler_Eather](img/avatars/Traveler_Eather.png)      | `Traveler_Eather`| ![Traveler_Lumine](img/avatars/Traveler_Lumine.png)      | `Traveler_Lumine`|
-    | ![Venti](img/avatars/Venti.png)      | `Venti`| ![Xiangling](img/avatars/Xiangling.png)      | `Xiangling`|
-    | ![Xiao](img/avatars/Xiao.png)      | `Xiao`| ![Xingqiu](img/avatars/Xingqiu.png)      | `Xingqiu`|
-    | ![Xinyan](img/avatars/Xinyan.png)      | `Xinyan`| ![Yae_Miko](img/avatars/Yae_Miko.png)      | `Yae_Miko`|
-    | ![Yanfei](img/avatars/Yanfei.png)      | `Yanfei`| ![Yelan](img/avatars/Yelan.png)      | `Yelan`|
-    | ![Yoimiya](img/avatars/Yoimiya.png)      | `Yoimiya`| ![Yun_Jin](img/avatars/Yun_Jin.png)      | `Yun_Jin`|
-    | ![Zhongli](img/avatars/Zhongli.png)      | `Zhongli`|
+    | ![Albedo](img/avatars/Albedo.png)| `Albedo`| ![Aloy](img/avatars/Aloy.png)      | `Aloy`|
+    | ![Amber](img/avatars/Amber.png)| `Amber`| ![Arataki_Itto](img/avatars/Arataki_Itto.png)      | `Arataki_Itto`|
+    | ![Barbara](img/avatars/Barbara.png)| `Barbara`| ![Beidou](img/avatars/Beidou.png)      | `Beidou`|
+    | ![Bennett](img/avatars/Bennett.png)| `Bennett`| ![Candace](img/avatars/Candace.png)      | `Candace`|
+    | ![Chongyun](img/avatars/Chongyun.png)| `Chongyun`| ![Cyno](img/avatars/Cyno.png)      | `Cyno`|
+    | ![Diluc](img/avatars/Diluc.png)| `Diluc`| ![Diona](img/avatars/Diona.png)      | `Diona`|
+    | ![Dori](img/avatars/Dori.png)| `Dori`| ![Eula](img/avatars/Eula.png)      | `Eula`|
+    | ![Faruzan](img/avatars/Faruzan.png)| `Faruzan`| ![Fischl](img/avatars/Fischl.png)      | `Fischl`|
+    | ![Ganyu](img/avatars/Ganyu.png)| `Ganyu`| ![Gorou](img/avatars/Gorou.png)      | `Gorou`|
+    | ![Hu_Tao](img/avatars/Hu_Tao.png)| `Hu_Tao`| ![Jean](img/avatars/Jean.png)      | `Jean`|
+    | ![Kaedehara_Kazuha](img/avatars/Kaedehara_Kazuha.png)| `Kaedehara_Kazuha`| ![Kaeya](img/avatars/Kaeya.png)      | `Kaeya`|
+    | ![Kamisato_Ayaka](img/avatars/Kamisato_Ayaka.png)| `Kamisato_Ayaka`| ![Kamisato_Ayato](img/avatars/Kamisato_Ayato.png)      | `Kamisato_Ayato`|      
+    | ![Keqing](img/avatars/Keqing.png)| `Keqing`| ![Klee](img/avatars/Klee.png)      | `Klee`|
+    | ![Kujou_Sara](img/avatars/Kujou_Sara.png)| `Kujou_Sara`| ![Kuki_Shinobu](img/avatars/Kuki_Shinobu.png)      | `Kuki_Shinobu`|
+    | ![Layla](img/avatars/Layla.png)| `Layla`| ![Lisa](img/avatars/Lisa.png)      | `Lisa`|
+    | ![Mona](img/avatars/Mona.png)| `Mona`| ![Ningguang](img/avatars/Ningguang.png)      | `Ningguang`|
+    | ![Noelle](img/avatars/Noelle.png)| `Noelle`| ![Paimon](img/avatars/Paimon.png)      | `Paimon`|
+    | ![Qiqi](img/avatars/Qiqi.png)| `Qiqi`| ![Raiden_Shogun](img/avatars/Raiden_Shogun.png)      | `Raiden_Shogun`|
+    | ![Razor](img/avatars/Razor.png)| `Razor`| ![Rosaria](img/avatars/Rosaria.png)      | `Rosaria`|
+    | ![Sangonomiya_Kokomi](img/avatars/Sangonomiya_Kokomi.png)| `Sangonomiya_Kokomi`| ![Sayu](img/avatars/Sayu.png)      | `Sayu`|
+    | ![Shenhe](img/avatars/Shenhe.png)| `Shenhe`| ![Shikanoin_Heizou](img/avatars/Shikanoin_Heizou.png)      | `Shikanoin_Heizou`|
+    | ![Sucrose](img/avatars/Sucrose.png)| `Sucrose`| ![Tartaglia](img/avatars/Tartaglia.png)      | `Tartaglia`|
+    | ![Thoma](img/avatars/Thoma.png)| `Thoma`| ![Tighnari](img/avatars/Tighnari.png)      | `Tighnari`|
+    | ![Traveler_Eather](img/avatars/Traveler_Eather.png)| `Traveler_Eather`| ![Traveler_Lumine](img/avatars/Traveler_Lumine.png)      | `Traveler_Lumine`|
+    | ![Venti](img/avatars/Venti.png)| `Venti`| ![Wanderer](img/avatars/Wanderer.png)      | `Wanderer`|
+    | ![Xiangling](img/avatars/Xiangling.png)| `Xiangling`| ![Xiao](img/avatars/Xiao.png)      | `Xiao`|
+    | ![Xingqiu](img/avatars/Xingqiu.png)| `Xingqiu`| ![Xinyan](img/avatars/Xinyan.png)      | `Xinyan`|
+    | ![Yae_Miko](img/avatars/Yae_Miko.png)| `Yae_Miko`| ![Yanfei](img/avatars/Yanfei.png)      | `Yanfei`|
+    | ![Yelan](img/avatars/Yelan.png)| `Yelan`| ![Yoimiya](img/avatars/Yoimiya.png)      | `Yoimiya`|
+    | ![Yun_Jin](img/avatars/Yun_Jin.png)| `Yun_Jin`| ![Zhongli](img/avatars/Zhongli.png)      | `Zhongli`|
     </details> 
 
 2. Add a secret with the name `CARD_AVATAR` and the avatar parameter of your choice. For example, I chose `Chongyun`
@@ -152,7 +155,7 @@ The first two steps are similar, so let's move on to the third
 
 1. Choose an background
     <details>
-    <summary>Show available backgrouns (11)</summary>
+    <summary>Show available backgrouns (14)</summary>
 
     |   Immage   |    Params    |   Immage   |    Params    |
     | ---------- | ------------ | ---------- | ------------ |

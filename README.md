@@ -155,7 +155,7 @@ The first two steps are similar, so let's move on to the third
 
 1. Choose an background
     <details>
-    <summary>Show available backgrouns (14)</summary>
+    <summary>Show available backgrouns (24)</summary>
 
     |   Immage   |    Params    |   Immage   |    Params    |
     | ---------- | ------------ | ---------- | ------------ |
@@ -166,6 +166,11 @@ The first two steps are similar, so let's move on to the third
     | ![bg_9](img/bg/bg_9.png)      | `bg_9`| ![bg_10](img/bg/bg_10.png)      | `bg_10`|
     | ![bg_11](img/bg/bg_11.png)      | `bg_11`| ![bg_12](img/bg/bg_12.png)      | `bg_12`| 
     | ![bg_13](img/bg/bg_13.png)      | `bg_13`| ![bg_14](img/bg/bg_14.png)      | `bg_14`| 
+    | ![bg_15](img/bg/bg_15.png)      | `bg_15`| ![bg_16](img/bg/bg_16.png)      | `bg_16`| 
+    | ![bg_17](img/bg/bg_17.png)      | `bg_17`| ![bg_18](img/bg/bg_18.png)      | `bg_18`| 
+    | ![bg_19](img/bg/bg_19.png)      | `bg_19`| ![bg_20](img/bg/bg_20.png)      | `bg_20`| 
+    | ![bg_21](img/bg/bg_21.png)      | `bg_21`| ![bg_22](img/bg/bg_22.png)      | `bg_22`| 
+    | ![bg_23](img/bg/bg_23.png)      | `bg_23`| ![bg_24](img/bg/bg_24.png)      | `bg_24`| 
     </details> 
 
 2. Add a secret with the name `CARD_BG` and the avatar parameter of your choice. For example, I chose `bg_4`

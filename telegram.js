@@ -15,7 +15,9 @@ bot.on('message', async (msg) => {
 async function sendImg(image,id) {
     console.log("Trying to send a card to Telegram");
     try {
-        await bot.sendPhoto(UID,image,{caption: `ID: ${id}`})
+        if (hideId == "All" || hideId == "Message") caption = ""
+        else caption = `ID: ${id}`
+        await bot.sendPhoto(UID,image,{caption: caption})
     } catch (error) {
         console.log(error);
         core.setFailed('Error sending file!');

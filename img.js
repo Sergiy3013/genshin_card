@@ -1,6 +1,9 @@
 core = require('@actions/core');
+require('dotenv').config()
 const fs = require('fs')
 const { registerFont, createCanvas, loadImage } = require('canvas')
+
+hideId = process.env.CARD_HIDE_ID
 
 async function start(data, bg, avatar, lang) {
     bg = `./img/bg/${bg || "bg_1"}.png`
@@ -51,9 +54,14 @@ async function start(data, bg, avatar, lang) {
 
     console.log("Add basic user information (name, server, level and ID)");
     try {
-        await addText(data.User.Name, 350, 230, 50); // Name
-        await addText(`${data.User.Server}  |  Lv.${data.User.lvl}`, 350, 285, 35); // Server
-        await addText(`UID: ${data.User.id}`, 350, 325, 35); // ID        
+        if (hideId == "All" || hideId == "Card") {
+            await addText(data.User.Name, 350, 240, 50); // Name
+            await addText(`${data.User.Server}  |  Lv.${data.User.lvl}`, 350, 300, 35); // Server
+        } else{
+            await addText(data.User.Name, 350, 230, 50); // Name
+            await addText(`${data.User.Server}  |  Lv.${data.User.lvl}`, 350, 285, 35); // Server
+            await addText(`UID: ${data.User.id}`, 350, 325, 35); // ID        
+        }
     } catch (error) {
         console.log(error);
         core.setFailed(" Error adding basic user information");
@@ -62,22 +70,22 @@ async function start(data, bg, avatar, lang) {
 
     console.log("Attempting to write user statistics");
     try {
-        await addText(data.Summary.Days_Active, indent(200, data.Summary.Days_Active), 500);
-        await addText(data.Summary.Achievements, indent(445, data.Summary.Achievements), 500);
-        await addText(data.Summary.Characters, indent(690, data.Summary.Characters), 500);
-    
-        await addText(data.Summary.Anemoculi, indent(200, data.Summary.Anemoculi), 700);
-        await addText(data.Summary.Geoculi, indent(445, data.Summary.Geoculi), 700);
-        await addText(data.Summary.Electroculi, indent(690, data.Summary.Electroculi), 700);
-    
+        await addText(data.Summary.Days_Active, indent(200, data.Summary.Days_Active), 510);
+        await addText(data.Summary.Achievements, indent(445, data.Summary.Achievements), 510);
+        await addText(data.Summary.Characters, indent(690, data.Summary.Characters), 510);
+
+        await addText(data.Summary.Anemoculi, indent(200, data.Summary.Anemoculi), 710);
+        await addText(data.Summary.Geoculi, indent(445, data.Summary.Geoculi), 710);
+        await addText(data.Summary.Electroculi, indent(690, data.Summary.Electroculi), 710);
+
         await addText(data.Summary.Dendroculi, indent(200, data.Summary.Dendroculi), 900);
         await addText(data.Summary.Waypoints_Unlocked, indent(445, data.Summary.Waypoints_Unlocked), 900);
         await addText(data.Summary.Domains_Unlocked, indent(690, data.Summary.Domains_Unlocked), 900);
-    
+
         await addText(data.Summary.Spiral_Abyss, indent(200, data.Summary.Spiral_Abyss), 1080);
         await addText(data.Summary.Common_Chests_Opened, indent(445, data.Summary.Waypoints_Unlocked), 1080);
         await addText(data.Summary.Exquisite_Chests_Opened, indent(690, data.Summary.Exquisite_Chests_Opened), 1080);
-    
+
         await addText(data.Summary.Precious_Chests_Opened, indent(200, data.Summary.Precious_Chests_Opened), 1260);
         await addText(data.Summary.Luxurious_Chests_Opened, indent(445, data.Summary.Luxurious_Chests_Opened), 1260);
         await addText(data.Summary.Number_of_Remarkable_Chests, indent(690, data.Summary.Number_of_Remarkable_Chests), 1260);
@@ -88,7 +96,7 @@ async function start(data, bg, avatar, lang) {
     }
 
     console.log("Trying to save a file");
-    try {await saveFile(`card_${data.User.id}.png`) } 
+    try { await saveFile(`card_${data.User.id}.png`) }
     catch (error) {
         console.log(error);
         core.setFailed(" Failed to save filea");
@@ -127,10 +135,10 @@ async function start(data, bg, avatar, lang) {
     function indent(coord, text) {
         return (coord - context.measureText(text).width / 2)
     }
-    async function saveFile(fileName) { 
+    async function saveFile(fileName) {
         folder = "./tmp/"
         if (!fs.existsSync(folder)) fs.mkdirSync(folder);
-        fs.writeFileSync(folder + fileName, canvas.toBuffer('image/png')) 
+        fs.writeFileSync(folder + fileName, canvas.toBuffer('image/png'))
     }
 }
 

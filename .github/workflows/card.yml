@@ -36,3 +36,4 @@ jobs:
         CARD_AVATAR: ${{ secrets.CARD_AVATAR }}
         CARD_BG: ${{ secrets.CARD_BG }}
         CARD_LANG: ${{ secrets.CARD_LANG }}
+        CARD_HIDE_ID: ${{ secrets.CARD_HIDE_ID }}

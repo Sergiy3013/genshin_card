@@ -3,6 +3,8 @@ puppeteer = require('puppeteer');
 selectors = require('./selectors.json');
 require('dotenv').config()
 
+var headless = false;
+// headless = true;
 
 async function start(str) {
     cookies = []
@@ -17,7 +19,7 @@ async function start(str) {
 
     console.log("Trying to launch a browser");
     try {
-        browser = await puppeteer.launch({ headless: true });
+        browser = await puppeteer.launch({ headless: headless });
         page = (await browser.pages())[0];
     } catch (error) {
         console.log(error);
@@ -108,9 +110,10 @@ async function start(str) {
         };
     }
     async function getUserData(selector) {
-        await page.waitForSelector(selector.close)
-        await page.click(selector.close)
-
+        // await page.waitForSelector(selector.close)
+        // await page.click(selector.close)
+        
+        await page.waitForSelector(selector.name)
         userName = await getElText(selector.name)
         info = (await getElText(selector.info)).trim()
         server = info.split("Server")[0].trim()

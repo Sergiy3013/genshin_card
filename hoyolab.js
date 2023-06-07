@@ -4,7 +4,7 @@ selectors = require('./selectors.json');
 require('dotenv').config()
 
 var headless = false;
-// headless = true;
+headless = true;
 
 async function start(str) {
     cookies = []
